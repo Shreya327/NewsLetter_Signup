@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-color: hsl(234, 29%, 20%);
+}
+.outer-box {
+  background-color: white;
+  margin: 14%;
+
+  display: grid;
+  grid-template-columns: 50% auto;
+  border-radius: 5%;
+}
+.right-box svg {
+  object-fit: cover;
+  width:100%;
+  height: 100%;
+}
+.left-box {
+  margin: 10%;
+  padding-top: 70px;
+}
+.left-box h1 {
+  text-align: center;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 58px;
+  color: hsl(234, 29%, 20%);
+}
+.left-box p,
+.left-box div {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: hsl(234, 29%, 20%);
+}
+.left-box p {
+  margin-bottom: 10px;
+}
+
+.right-box {
+  margin: 15%;
+ overflow: hidden;
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  height: 5%;
+  display: block;
+
+  margin-top: 20px;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  width: 98%;
+  border-width: 1px;
+  border-radius: 5px;
+  height: 43px;
+}
+.bullet-points {
+  justify-content: center;
+}
+.bullet-points div p {
+  display: inline;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  margin-left: 7px;
+}
+
+#title {
+  margin-top: 30px;
+  font-size: 10px;
+  color: hsl(234, 29%, 20%);
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+input {
+  width: 93%;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border-width: 1px;
+}
+.ran {
+  display: flex;
+  align-items: center;
+}
+.ran svg {
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+#error {
+  margin-top: 30px;
+  font-size: 10px;
+  color: hsl(4, 100%, 67%);
+  font-weight: 900;
+  margin-bottom: 5px;
+  display: inline;
+  margin-right: 7px;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+.btn:hover {background-color: hsl(4, 100%, 67%);
+  border-width: 0;
+}
+@media screen and (max-width:768px){
+  body {
+    background-color: white;
+  }
+  .outer-box {
+    background-color: white;
+    margin: 0;
+    margin-bottom: 5%;
+  
+    display: flex;
+    flex-direction: column-reverse;
+  
+   
+  }
+  .left-box {
+    margin: 5%;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .right-box  {
+    
+      
+   margin: 0;
+  
+  }
+  .left-box h1 {
+    text-align: left;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    color: hsl(234, 29%, 20%);
+  }
+  .bullet-points div p {
+    display: inline;
+   
+    margin-left: 7px;
+  }
+  .right-box svg {
+    
+  
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+    margin: 0;
+}
+   
+}
+@media screen  and (min-width:767px ) and (max-width:1213px)
+{
+  
+  .bullet-points div p {
+    
+   
+    margin-left: 7px; 
+    white-space: initial;
+  
+
+  }
+  
+}

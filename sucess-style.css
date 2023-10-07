@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    background-color:  hsl(234, 29%, 20%);
+}
+.box{
+    margin: 35%;
+    background-color: white;
+    border-radius: 15px;
+    border-width: 1px;
+    height: 400px;
+    
+   
+}
+svg{
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+h1{
+    margin-left: 30px;
+    margin-top: 25px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 0;
+}
+p{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+    font-size: 16px;
+    margin-right: 25px;
+    
+}
+button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 5%;
+    display: block;
+     
+   margin-top: 20px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    margin-left: 30px;
+    width: 80%;
+    border-width: 1px;
+    border-radius: 7px;
+    height: 43px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+button:hover {background-color: hsl(4, 100%, 67%);
+    border-width: 0;
+}
+@media screen and (max-width:768px){
+
+    body{
+    background-color:  white;
+    margin: 0;
+}
+.box{
+    margin: 10%;
+    background-color: white;
+    border-radius: 15px;
+    border-width: 1px;
+    height: 400px;
+    
+   
+}
+h1{
+    margin-left: 4px;
+    margin-top: 25px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 0;
+    text-align: left;
+}
+p{
+    margin-left: 4px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+    font-size: 16px;
+    margin-right: 4px;
+    
+}
+button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 5%;
+    display: block;
+     
+   margin-top: 20px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    margin-left: 4px;
+    width: 95%;
+    border-width: 1px;
+    border-radius: 7px;
+    height: 43px;
+    margin-bottom: 20px;
+    margin-right: 4px;
+}
+svg{
+    margin-left: 4px;
+    margin-top: 25px;
+    margin-right: 20px;
+    
+}
+}
+@media screen and (min-width:769px) and (max-width:994px) {
+.box{
+        margin: 25%;
+        background-color: white;
+        border-radius: 15px;
+        border-width: 1px;
+        height: 410px;
+        
+        
+        
+       
+    }
+    button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 5%;
+    display: block;
+     
+   margin-top: 20px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    margin-left: 30px;
+    width: 80%;
+    border-width: 1px;
+    border-radius: 7px;
+    height: 43px;
+   
+    margin-right: 25px;
+   
+}
+h1{
+    margin-left: 30px;
+    margin-top: 25px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 0;
+   
+}
+}
+
